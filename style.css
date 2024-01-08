@@ -1,0 +1,68 @@
+ body{
+    background-image: url("https://images.unsplash.com/photo-1560109947-543149eceb16?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+   
+ }
+ .card{
+    margin-top: 20px;
+ }
+ .input{
+   text-align: center;
+    width: 80%;
+    background-color: rgba(42, 38, 38, 0.386);
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+.conatiner{
+    margin-left: 0px auto;
+}
+
+.nav .btn{ 
+   width: 20%;
+   background-color: red;
+   font-size: 30px;
+   color: white;
+}
+
+.row.content{
+  
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.434);
+}
+.col.content{
+ margin-left: 20px;
+ padding-top: 120px;
+}
+.img{
+    height: 500px;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+   margin-left: 180px;
+    
+}
+.top{
+    margin-bottom: 30px;
+    margin-top: -70px;
+    font-size: 60px;
+}
+.details{
+    margin-bottom: 20px;
+}
+@media(max-width:576px){
+ 
+ .img{
+    width: 80%;
+    margin-left: 25px;
+ }   
+ .input{
+    padding: 10px;
+ }
+}
