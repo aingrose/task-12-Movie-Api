@@ -13,7 +13,7 @@ let image = document.getElementById("image");
 
 function search(){
 let Moviename = document.getElementById("input").value
-let movie = fetch(`http://www.omdbapi.com/?apikey=61e576a4&t=${Moviename}`)
+let movie = fetch(`https://www.omdbapi.com/?apikey=61e576a4&t=${Moviename}`)
 .then((data)=>data.json())
 .then((datas)=>{
     // console.log(datas)
